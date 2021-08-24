@@ -29,6 +29,7 @@ describe("#removeUser", function() {
     expect(users.length).toEqual(2)
     
   });
+
   it("returns the removed user", function() {
     expect(removeUser(users,"mlewis")).toEqual({ username: "mlewis" });
   });
